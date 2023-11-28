@@ -16,3 +16,7 @@ node_modules/
 package.json
 package-lock.json
 .python-version
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

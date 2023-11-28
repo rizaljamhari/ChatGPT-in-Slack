@@ -47,7 +47,7 @@ SLACK_APP_LOG_LEVEL = os.environ.get("SLACK_APP_LOG_LEVEL", "DEBUG")
 
 TRANSLATE_MARKDOWN = os.environ.get("TRANSLATE_MARKDOWN", "false") == "true"
 
-REDACTION_ENABLED = os.environ.get("REDACTION_ENABLED", "false") == "true"
+REDACTION_ENABLED = os.environ.get("REDACTION_ENABLED", "true") == "true"
 
 # Redaction patterns
 #

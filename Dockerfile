@@ -3,6 +3,9 @@ COPY requirements.txt /build/
 WORKDIR /build/
 RUN pip install -U pip && pip install -r requirements.txt
 
+# EXPOSE random port
+EXPOSE 8041
+
 FROM python:3.11.4-slim-buster as app
 WORKDIR /app/
 COPY *.py /app/
